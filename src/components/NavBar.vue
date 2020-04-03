@@ -52,6 +52,9 @@ export default {
     /* in Vue.js when it sees the router-link, it interprets it as an a         */
     color: #42b983;
   }
+  a.router-link-exact-active{
+    color: purple;
+  }
   li{
     display: inline-block;
     margin: 10px;
