@@ -7,6 +7,7 @@ import ViewProfile from '@/components/ViewProfile'                   // the @ th
 Vue.use(Router)
 
 export default new Router({
+  mode: 'history',           // #  vs  history  :   you will need this for backend !!!
   routes: [
     {
       path: '/',
